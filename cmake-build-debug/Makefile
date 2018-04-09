@@ -123,6 +123,33 @@ RealTimeSystem/fast:
 	$(MAKE) -f CMakeFiles/RealTimeSystem.dir/build.make CMakeFiles/RealTimeSystem.dir/build
 .PHONY : RealTimeSystem/fast
 
+Plugins/TinyXML/tinyxml2.o: Plugins/TinyXML/tinyxml2.cpp.o
+
+.PHONY : Plugins/TinyXML/tinyxml2.o
+
+# target to build an object file
+Plugins/TinyXML/tinyxml2.cpp.o:
+	$(MAKE) -f CMakeFiles/RealTimeSystem.dir/build.make CMakeFiles/RealTimeSystem.dir/Plugins/TinyXML/tinyxml2.cpp.o
+.PHONY : Plugins/TinyXML/tinyxml2.cpp.o
+
+Plugins/TinyXML/tinyxml2.i: Plugins/TinyXML/tinyxml2.cpp.i
+
+.PHONY : Plugins/TinyXML/tinyxml2.i
+
+# target to preprocess a source file
+Plugins/TinyXML/tinyxml2.cpp.i:
+	$(MAKE) -f CMakeFiles/RealTimeSystem.dir/build.make CMakeFiles/RealTimeSystem.dir/Plugins/TinyXML/tinyxml2.cpp.i
+.PHONY : Plugins/TinyXML/tinyxml2.cpp.i
+
+Plugins/TinyXML/tinyxml2.s: Plugins/TinyXML/tinyxml2.cpp.s
+
+.PHONY : Plugins/TinyXML/tinyxml2.s
+
+# target to generate assembly for a file
+Plugins/TinyXML/tinyxml2.cpp.s:
+	$(MAKE) -f CMakeFiles/RealTimeSystem.dir/build.make CMakeFiles/RealTimeSystem.dir/Plugins/TinyXML/tinyxml2.cpp.s
+.PHONY : Plugins/TinyXML/tinyxml2.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... RealTimeSystem"
+	@echo "... Plugins/TinyXML/tinyxml2.o"
+	@echo "... Plugins/TinyXML/tinyxml2.i"
+	@echo "... Plugins/TinyXML/tinyxml2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,3 +1,7 @@
-1. XML parser
+1. XML parser{
+    Так как писать мы будем его не сами то первое что я сделал это загуглил. Выбор пал на TinyXML// https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c
+    a)https://github.com/leethomason/tinyxml2
+    b)
+}
 2. alghoritm
 3. bug testing

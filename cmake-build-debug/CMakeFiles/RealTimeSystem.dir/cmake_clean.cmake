@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RealTimeSystem.dir/main.cpp.o"
+  "CMakeFiles/RealTimeSystem.dir/Plugins/TinyXML/tinyxml2.cpp.o"
   "RealTimeSystem.pdb"
   "RealTimeSystem"
 )

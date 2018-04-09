@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/nikita/Documents/GitHub/RealTimeSystem/Plugins/TinyXML"/>
 					<Add directory="/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
 					<Add directory="/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -65,6 +66,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/nikita/Documents/GitHub/RealTimeSystem/Plugins/TinyXML"/>
 					<Add directory="/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
 					<Add directory="/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -80,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nikita/Documents/GitHub/RealTimeSystem/Plugins/TinyXML/tinyxml2.cpp">
+			<Option target="RealTimeSystem"/>
+		</Unit>
+		<Unit filename="/Users/nikita/Documents/GitHub/RealTimeSystem/Plugins/TinyXML/tinyxml2.h">
+			<Option target="RealTimeSystem"/>
+		</Unit>
 		<Unit filename="/Users/nikita/Documents/GitHub/RealTimeSystem/main.cpp">
 			<Option target="RealTimeSystem"/>
 		</Unit>

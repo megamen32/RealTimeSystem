@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/nikita/Documents/GitHub/RealTimeSystem/Plugins/TinyXML/tinyxml2.cpp" "/Users/nikita/Documents/GitHub/RealTimeSystem/cmake-build-debug/CMakeFiles/RealTimeSystem.dir/Plugins/TinyXML/tinyxml2.cpp.o"
   "/Users/nikita/Documents/GitHub/RealTimeSystem/main.cpp" "/Users/nikita/Documents/GitHub/RealTimeSystem/cmake-build-debug/CMakeFiles/RealTimeSystem.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../Plugins/TinyXML"
   )
 
 # Targets to which this target links.
