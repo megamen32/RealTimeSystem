@@ -5,3 +5,7 @@
 }
 2. alghoritm
 3. bug testing
+
+
+5. ///YOU DONT SEE IT
+https://habrahabr.ru/post/142351/     - основы функционального програмирования
